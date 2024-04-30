@@ -32,7 +32,7 @@ header {
 
 .link {
   color:#ffffff;
-  font-size: 20px;
+  font-size: 20px; 
   font-weight: 300;
   text-decoration: none;
 }
@@ -286,6 +286,11 @@ div.icon__container {
     color: #594399;
     font-size: 120px;
     box-sizing: border-box;
+
+  }
+
+  div.teste1{
+    margin-top: 100px;
   }
 
   .contato{
