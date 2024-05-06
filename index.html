@@ -14,6 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -30,7 +31,7 @@
   <main>
     <section id="home" class="home">
       <section class="container">
-        <h1 class="titulo__h1">Seja Bem-Vindo ao meu <strong>Portifólio</strong></h1>
+        <h1 class="titulo__h1">Seja Bem-Vindo ao meu <strong>Portifolio</strong></h1>
       </section>
     </section>
 
@@ -43,6 +44,7 @@
         <section class="info__sobre">
           <h2>Quem sou?</h2>
         </section>
+      
         <div class="meu__nome">
           Islaynne<span class="destaque"> Viana</span>
         </div>
@@ -50,11 +52,10 @@
           <h1>Back-End Developer</h1>
         </div>
         <div class="descricao">
-          <p>Oi! Eu sou a Islaynne Vivamus urna nisi,
-            lobortis ut euismod in, sollicitudin ac ipsum.
-            Mauris a libero id velit pulvinar
-            scelerisque at quis magna.
-            Aliquam erat volutpat.
+          <p>
+            Meu nome é Islaynne e atualmente estou cursando o quinto período de Ciência da Computação. 
+            Estou focando meus estudos no desenvolvimento Back-End, embora também esteja explorando o Front-End. 
+            Sou apaixonada por tecnologia, literatura e chocolates.
           </p>
           <div class="icon__container">
             <nav>
@@ -72,36 +73,42 @@
         </div>
       </section>
     </section>
-    <section id="meus__projetos" class="meus__projetos">
 
-      <section class="meus__projetos">
-        <div class="titulo__projeto">
+    <section id="meus__projetos" class="meus__projetos">
+      <div class="titulo__projeto">
           <h1>Meus Projetos</h1>
-        </div>
-        <div class="caixa__pai">
+      </div>
+      <div class="caixa__pai">
           <div class="caixa">
               <a href="https://jogo-mu-liard.vercel.app/">
-                  <img src="numeroSecreto.png" alt="Numero Secreto">
+                  <img src="numeroSecreto.png" alt="Jogo Número Secreto">
               </a>
           </div>
+          <div class="caixa">
+              <a href="https://robotron-m88i.vercel.app/">
+                  <img src="robotron.png" alt="Jogo Robotron">
+              </a>
+          </div>
+          <div class="caixa">
+        <a href="">
+            <img src="aluraMidi.png" alt=" Alura Midi">
+        </a>
       </div>
-        </div>
-      </section>
+      
+    </div>
+  </section>
 
-    </section>
-
-    <section id="habilidades" class="habilidades">
-      <section class="habilidades">
+      <section id="habilidades" class="habilidades">
         <div>
-          <h3 class="habilidades__titulo">Habilidades</h3>
+          <h3 class="habilidades__titulo">Habilidades </h3>
         </div>
 
         <div>
           <div class="habilidades__caixa">
-            <div class="box__habilidades">
+            <div class="box__habilidades teste1">
               <i class="fa-brands fa-html5"></i>
             </div>
-            <div class="box__habilidades">
+            <div class="box__habilidades teste1">
               <i class="fa-brands fa-css3-alt"></i>
             </div>
           </div>
@@ -116,19 +123,20 @@
           </div>
         </div>
       </section>
-    </section>
   </main>
 
   <footer class="rodape">
     <div class="background">
+      
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        width="100%" height="100%" viewBox="0 0 1600 900">
+        width="100%" height="100%" viewBox="0 0 1000 830">
         <defs>
           <path id="wave" fill="rgba(105, 27, 252, 0.6)"
             d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
         s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
         </defs>
         <g>
+          
           <use xlink:href="#wave" opacity=".4">
             <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="8s" calcMode="spline"
               values="270 230; -334 180; 270 230" keyTimes="0; .5; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
@@ -139,6 +147,7 @@
               values="-270 230;243 220;-270 230" keyTimes="0; .6; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
               repeatCount="indefinite" />
           </use>
+          
           <use xlink:href="#wave" opacty=".9">
             <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="4s" calcMode="spline"
               values="0 230;-140 200;0 230" keyTimes="0; .4; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
