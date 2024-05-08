@@ -1,173 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./styles/index.css">
+    <title>Portfolio</title>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul class="lista">
-        <li><a href="#container" class="link">Home</a></li>
-        <li><a href="#sobre_mim" class="link">Sobre Mim</a></li>
-        <li><a href="#meus__projetos" class="link">Projetos</a></li>
-        <li><a href="#habilidades" class="link">Habilidades</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="home" class="home">
-      <section class="container">
-        <h1 class="titulo__h1">Seja Bem-Vindo ao meu <strong>Portifolio</strong></h1>
-      </section>
-    </section>
 
-    <section id="sobre_mim" class="sobre_mim">]
-      <section class="box">
-        <section class="section__moldura">
-          <img class="moldura" src="moldura.png" alt="moldura_foto">
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="#home" class="cabecalho__menu__link">Home</a>
+            <a href="#sobre" class="cabecalho__menu__link">Sobre mim</a>
+            <a href="#projetos" class="cabecalho__menu__link">Projetos</a>
+            <a href="#habilidades" class="cabecalho__menu__link">Habilidades</a>
+        </nav>
+    </header>
+
+    <main class="apresentacao">
+
+        <div class="apresentacao__conteudo" id="home">
+            <p class="apresentacao__inicio" id="mensagem_inicio"></p>
+            <strong class="apresentacao__inicio__destaque" id="mensagem_destaque"></strong>
+        </div>
+
+        <section class="apresentacao__pessoal" id="sobre">
+
+            <div class="apresentacao__pessoal__imagem">
+                <img src="./assets/moldura.png" alt="imagem pessoal" class="imagem__pessoal">
+            </div>
+
+            <div class="apresentacao__pessoal__textos">
+
+                <p class="apresentacao__pessoal__textos__pergunta">Quem sou eu?</p>
+
+                <div class="apresentacao__pessoal__textos_nome">
+
+                    <strong class="apresentacao__pessoal__textos__nome_destaque">Islaynne</strong>
+                    <p class="apresentacao__pessoal__textos__sobrenome">Viana</p>
+
+                </div>
+
+                <p class="apresentacao__pessoal__textos__area">Back-end developer</p>
+
+                <p class="apresentacao__pessoal__textos__descricao">Oi! Eu sou a Islaynne e sou estudante
+                    de Ciência da Computação e estou no 5 período.
+                    Estou aprendendo a desenvolver na area Back-End e estou aprendendo Front-End.
+                     Minhas maiores paixões são Tecnologia, 
+                     livros e chocolates.</p>
+                 <div class="apresentacao__pessoal__icones">
+
+                <nav class="apresentacao__pessoal__icones__navegacao">
+
+                    <a class="icon_github" href="https://github.com/IslaynneViana">
+                        <i class="fa-brands fa-github fa-bounce"></i>
+                    </a>
+
+                    <a class="icon_linkedin" href="https://www.linkedin.com/in/islaynne-viana-8a6664207/">
+                        <i class="fa-brands fa-linkedin fa-bounce"></i>
+                    </a>
+
+                    <a class="icon_instagram" href="https://www.instagram.com/isl4ynne/">
+                     <i class="fa-brands fa-instagram fa-bounce"></i>
+                    </a>
+
+                </nav>
+
+            </div>    
+
+            </div>
+
         </section>
 
-        <section class="info__sobre">
-          <h2>Quem sou?</h2>
+        <section class="meus__projetos" id="projetos">
+            <div class="meus__projetos__titulo">
+                <h1>Meus Projetos</h1>
+            </div>
+
+            <div class="meus__projetos__caixa">
+
+                <div class="caixa">
+                    <a href="https://robotron-m88i.vercel.app/">
+                    <img class="imagens" src="/assets/robotron.png" alt="Jogo Robotron">
+                </div>
+
+                <div class="caixa">
+                    <a href="https://jogo-mu-liard.vercel.app/">
+                    <img class="imagens" src="/assets/numeroSecreto.png" alt="Jogo Número Secreto">
+                    </a>
+                </div>
+
+                <div class="caixa">
+                    <a href="https://vercel.com/islaynnevianas-projects/alura-midi">
+                    <img class="imagens" src="/assets/aluraMidi.png" alt="Alura Midi">
+                    </a>
+                </div>
+
+            </div>
+
         </section>
-      
-        <div class="meu__nome">
-          Islaynne<span class="destaque"> Viana</span>
-        </div>
-        <div class="sub__titulo">
-          <h1>Back-End Developer</h1>
-        </div>
-        <div class="descricao">
-=======
-          <p>Oi! Eu sou a Islaynne e sou estudante
-             de Ciência da Computação e estou no 5 período.
-             Estou aprendendo a desenvolver na area Back-End e estou aprendendo Front-End.
-              Minhas maiores paixões são Tecnologia, 
-              livros e chocolates.
-          </p>
-          <div class="icon__container">
-            <nav>
-              <a class="icon_github" href="https://github.com/IslaynneViana">
-                <i class="fa-brands fa-github fa-bounce"></i>
-              </a>
-              <a class="icon_linkedin" href="https://www.linkedin.com/in/islaynne-viana-8a6664207/">
-                <i class="fa-brands fa-linkedin fa-bounce"></i>
-              </a>
-              <a class="icon_instagram" href="https://www.instagram.com/isl4ynne/">
-                <i class="fa-brands fa-instagram fa-bounce"></i>
-              </a>
-            </nav>
-          </div>
-        </div>
-      </section>
-    </section>
 
-    <section id="meus__projetos" class="meus__projetos">
-      <div class="titulo__projeto">
-          <h1>Meus Projetos</h1>
-      </div>
-      <div class="caixa__pai">
-          <div class="caixa">
-              <a href="https://jogo-mu-liard.vercel.app/">
-                  <img src="numeroSecreto.png" alt="Jogo Número Secreto">
-              </a>
-          </div>
-          <div class="caixa">
-              <a href="https://robotron-m88i.vercel.app/">
-                  <img src="robotron.png" alt="Jogo Robotron">
-              </a>
-          </div>
-          <div class="caixa">
-        <a href="">
-            <img src="aluraMidi.png" alt=" Alura Midi">
-        </a>
-      </div>
+        <section class="minhas__habilidades" id="habilidades">
+            <div class="minhas__habilidades_titulo">
+                <h1>Habilidades</h1>
+            </div>
+
+            <div class="minhas__habilidades__caixas">
+
+                <div>
+
+                    '<div class="caixas">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+
+                    <div class="caixas">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+
+                </div>
       
+                <div>
+
+                    <div class="caixas">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+
+                    <div class="caixas">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+
+                </div>
+
+              </div>
+
+
+        </section>
+        <footer class="rodape">
+            <div class="background">
+              
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="100%" height="100%" viewBox="0 100 1000 830">
+                <defs>
+                  <path id="wave" fill="rgba(105, 27, 252, 0.6)"
+                    d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+                s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+                </defs>
+                <g>
+                  
+                  <use xlink:href="#wave" opacity=".4">
+                    <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="8s" calcMode="spline"
+                      values="270 230; -334 180; 270 230" keyTimes="0; .5; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                      repeatCount="indefinite" />
+                  </use>
+                  <use xlink:href="#wave" opacity=".6">
+                    <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="6s" calcMode="spline"
+                      values="-270 230;243 220;-270 230" keyTimes="0; .6; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                      repeatCount="indefinite" />
+                  </use>
+                  
+                  <use xlink:href="#wave" opacty=".9">
+                    <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="4s" calcMode="spline"
+                      values="0 230;-140 200;0 230" keyTimes="0; .4; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                      repeatCount="indefinite" />
+                  </use>
+                </g>
+              </svg>
+            </div>
+            <div class="texto__footer">
+                <h1> © Desenvolvido por Islaynne</h1>
+            </div>
+            </section>
+          </footer>
+    </main>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
     </div>
-  </section>
-    </section>
-      <section id="habilidades" class="habilidades">
-        <div>
-          <h3 class="habilidades__titulo">Habilidades </h3>
-        </div>
-
-        <div>
-          <div class="habilidades__caixa">
-            <div class="box__habilidades teste1">
-              <i class="fa-brands fa-html5"></i>
-            </div>
-            <div class="box__habilidades teste1">
-              <i class="fa-brands fa-css3-alt"></i>
-            </div>
-          </div>
-
-          <div class="habilidades__caixa">
-            <div class="box__habilidades">
-              <i class="fa-brands fa-square-js"></i>
-            </div>
-            <div class="box__habilidades">
-              <i class="fa-brands fa-java"></i>
-            </div>
-          </div>
-        </div>
-      </section>
-  </main>
-
-  <footer class="rodape">
-    <div class="background">
-      
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        width="100%" height="100%" viewBox="0 0 1000 830">
-        <defs>
-          <path id="wave" fill="rgba(105, 27, 252, 0.6)"
-            d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
-        s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
-        </defs>
-        <g>
-          
-          <use xlink:href="#wave" opacity=".4">
-            <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="8s" calcMode="spline"
-              values="270 230; -334 180; 270 230" keyTimes="0; .5; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-              repeatCount="indefinite" />
-          </use>
-          <use xlink:href="#wave" opacity=".6">
-            <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="6s" calcMode="spline"
-              values="-270 230;243 220;-270 230" keyTimes="0; .6; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-              repeatCount="indefinite" />
-          </use>
-          
-          <use xlink:href="#wave" opacty=".9">
-            <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="4s" calcMode="spline"
-              values="0 230;-140 200;0 230" keyTimes="0; .4; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-              repeatCount="indefinite" />
-          </use>
-        </g>
-      </svg>
-    </div>
-    <section class="icons__footer">
-      <ul class="socials">
-        <li><a class="fa-brands fa-x-twitter"></a></li>
-        <li><a class="fa-brands fa-facebook"></a></li>
-        <li><a class="fa-brands fa-linked"></a></li>
-      </ul>
-      <p class="legal">© 2024 All rights reserved</p>
-    </section>
-  </footer>
-  <script src="scripts.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script> 
+    <script src="./js/index.js"></script>
+    
 </body>
-
 </html>
